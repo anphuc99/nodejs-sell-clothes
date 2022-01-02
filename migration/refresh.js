@@ -1,5 +1,5 @@
 var Query = [
-    
+    require("./CreateTable")
 ]
 const run = async() =>{
     for(i=Query.length-1; i>=0; i--){
