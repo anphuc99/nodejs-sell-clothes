@@ -1,0 +1,5 @@
+.modalImg .modal-body{
+    padding-top: 50px !important;
+    height: 500px !important;
+    overflow: scroll !important;
+}

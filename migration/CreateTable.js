@@ -45,9 +45,10 @@ const up = async()=>{
         table.name("name").type("varchar",50).notNull()
         table.name("link").type("varchar",50).notNull()
         table.name("node").type("varchar",200)
+        table.name("parent").type("int")
         table.name("created_at").type("datetime").defaultCurrent_Timestamp()
         return table
-    })
+    },true)
     await Schema.CreateTable(()=>{
         let table = new Table("picture")
         table.name("id").type("int").primaryIncrement()

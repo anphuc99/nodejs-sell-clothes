@@ -1,0 +1,9 @@
+{
+    "admin": {
+        "UploadImg": "/admin/09c230c4d0d7d4e5c460e7270df495c5",
+        "SelectAllImg": "/admin/e79bd05e2d8ef1f91fe649ce1140111f",
+        "AddProduct": "/admin/bce43688b828683dea16f730ec48612d",
+        "ListCategory": "/admin/b9a311fb98cce71ac5213b754ed39554"
+    },
+    "public": {}
+}
